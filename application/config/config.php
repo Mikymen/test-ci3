@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = $ENV["BASE_DIR"];
+$config['base_url'] = $_ENV["BASE_DIR"];
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = $ENV["BASE_DIR"];
 | variable so that it is blank.
 |
 */
-$config['index_page'] = $ENV["INDEX_PAGE"];
+$config['index_page'] = $_ENV["INDEX_PAGE"];
 
 /*
 |--------------------------------------------------------------------------
