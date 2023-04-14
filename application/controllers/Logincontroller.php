@@ -7,4 +7,8 @@ class Logincontroller extends CI_Controller {
 	{
 		$this->load->view('login');
 	}
+    public function Ls()
+	{
+		echo "hola amigos" ;
+	}
 }
