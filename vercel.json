@@ -4,12 +4,6 @@
         "runtime": "vercel-php@0.3.3"
       }
     },
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/api/index.php"
-        }
-    ],
     
     "redirects":[
         {
